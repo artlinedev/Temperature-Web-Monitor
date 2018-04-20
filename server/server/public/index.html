@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Temp - Servers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-family: sans-serif;
+                font-size: 100px;
+                background: #2c3e50;
+                color: #ecf0f1;
+            }
+            i {
+                font-size: 11px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Temperature: <b id="update">loading...</b>°</p>
+        <i>Updates every 5 seconds.</i>
+        <script src="/client.js"></script>
+    </body>
+</html>
